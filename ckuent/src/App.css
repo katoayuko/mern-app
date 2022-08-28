@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #b0e1ff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #fafbfc;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button.csvbutton{
+  font-size:13px;
+  height:30%;
+  width:50%
+}
+
+textarea {
+  resize:none;
+  height: 200px;
+  width: 80%;
+  border: 2px #a5b3d3 solid;
+  background: #ccd8fd;
+  font-size: 1.5rem;
+  color: #787a80;
+}
+ textarea::placeholder{
+   color:rgb(186, 186, 186);
+   font-size:18px;
+ }
+
+ .App{
+   background-color:#cbebf3
+ }
+
+ .App p{
+   font-size:15px;
+ }
+
+
+input:focus {
+  outline: none;
+}
+
+button {
+  width: 25%;
+  height: 45px;
+  border: none;
+  margin-left: 10px;
+  font-size: 25px;
+  background: #a8bce7;
+  border-radius: 5px;
+  color: #4a4e58;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  padding: 15px;
+  background: #e9f1fd;
+  border-radius: 5px;
+}
+
+li.todo {
+  white-space: pre-wrap;
+  padding: 15px;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  background: #cddbf8;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+  cursor: pointer;
+}
+
+li.delete{
+  margin-left:320px;
+  margin-bottom:20px;
+  font-size:8px;
+  height:1200%;
+  width: 35%
+}
+
+li.check{
+  margin-left:10%;
+  margin-right:100%;
+}
+
+.delete.button1{
+  font-size:10px;
+  width: 50px;
+  margin-left:80%;
+  margin-right:45%;
+}
+
+p.date{
+  color:#aaa;
+  font-size:15px;
+}
+
+
+@media only screen and (min-width: 300px) {
+  .App {
+    width: 80%;
+  }
+
+  input {
+    width: 100%
+  }
+
+  button {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .App {
+    width: 60%;
+  }
+
+  input {
+    width: 50%;
+  }
+
+  button {
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 0;
+  }
+}
